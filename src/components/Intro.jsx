@@ -16,7 +16,7 @@ export function Intro () {
                 <h2 className='text-center text-2xl sm:text-3xl md:text-4xl mt-6'>A NASA API viewer</h2>
             </div>
 
-            <div className='absolute bottom-10 left-1/2 -translate-x-1/2 z-20 animate-bounce'>
+            <a href="#viewer" className='absolute bottom-10 left-1/2 -translate-x-1/2 z-20 animate-bounce'>
             <svg 
                 xmlns="http://www.w3.org/2000/svg" 
                 fill="none" 
@@ -27,7 +27,7 @@ export function Intro () {
             >
                 <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
             </svg>
-            </div>
+            </a>
         </header>
     )
 }
