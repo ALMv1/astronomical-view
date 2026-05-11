@@ -1,4 +1,4 @@
-import earthImg from '../assets/earth.jpg'
+import earthImg from '../assets/earth.webp'
 
 
 export function Intro () {
