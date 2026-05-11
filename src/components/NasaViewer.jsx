@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react"
 
+const apiKey = import.meta.env.VITE_NASA_KEY;
+
 export function NasaViewer () {
     const [apod, setApod] = useState(null)
 
     useEffect(() => {
-    fetch("https://api.nasa.gov/planetary/apod?api_key=lMnTBIYoTeGl5lY2ny2T9EH48Tbv8zBF7a3UCwk1")
+    fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`)
     .then((response) => response.json())
     .then((data) => { setApod(data); })
     .catch((error) => console.error("Space error:", error));
