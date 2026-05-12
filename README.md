@@ -2,4 +2,6 @@
 
 small project that aims to show NASA images through their API.
 
+currently hosted at https://astronomicalview.netlify.app/
+
 Developed by ALMv using React and Tailwind CSS.
